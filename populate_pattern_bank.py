@@ -2,7 +2,7 @@
 # ! code to be used by "create_stat_libraries.py"
 
 import numpy as np
-
+ 
 def populate_pattern_bank(ticker):
     file = open(ticker + '_pattern_bank', 'w')
     chng_dat = np.loadtxt(ticker + '_percent_changes_daily.txt', dtype = str)

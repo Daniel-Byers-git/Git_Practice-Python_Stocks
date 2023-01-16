@@ -5,7 +5,7 @@ import csv
 # import numpy as np
 
 def comb_data(ticker):
-    # ? file = open('stock_prices.csv')
+    # ? file = open('stock_prices.csv') 
     file = open(ticker)
         # open data from yahoo finance in csv form
     csv_read = csv.reader(file)

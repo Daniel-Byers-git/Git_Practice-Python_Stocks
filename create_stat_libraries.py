@@ -5,7 +5,7 @@ import populate_pattern_bank as ppb
 
 # ! single use code just to make libraries
 
-# {
+# { 
     # class dictionary(dict):
     #     def __init__(self):
     #         self = dict()

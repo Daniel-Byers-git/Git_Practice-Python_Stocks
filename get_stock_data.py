@@ -2,7 +2,7 @@
 
 # ! to be used by "create_stat_libraries.py"
 
-import yfinance as yf
+import yfinance as yf 
 
 def get_stock_data(ticker, START, END):
     # ticker = 'AAPL'
